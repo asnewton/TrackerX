@@ -2,14 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-
-@NgModule({
+import { HomeComponent } from './home/home.component';
+import { NavBarComponent } from './Layout/nav-bar/nav-bar.component';
+import { SidebarComponent } from './Layout/sidebar/sidebar.component';
+ @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NavBarComponent,
+    SidebarComponent
   ],
   imports: [
-    BrowserModule
-  ],
+    BrowserModule,
+   ],
   providers: [],
   bootstrap: [AppComponent]
 })

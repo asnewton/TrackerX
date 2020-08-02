@@ -1,0 +1,24 @@
+.sidebar-list {
+    height: calc(100vh - 55px);
+    width: 200px;
+    background-color: #2f353a;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left:0;
+    padding-top:10px;
+}
+
+.sidebar-list li {
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    color:#fff;
+    cursor: pointer; 
+    line-height: 50px; 
+ }
+
+.sidebar-list li:hover {
+   background-color: #20a8d8;
+ }
+
+ 

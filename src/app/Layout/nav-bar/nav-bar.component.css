@@ -1,0 +1,56 @@
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #c8ced3;
+    position: fixed;
+    width: 100%;
+    height:55px;
+    z-index:9999;
+}
+
+nav .logo {
+    padding-left: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    color:#20a8d8;
+}
+
+nav  .hamburger {
+    padding-left: 20px; 
+  }
+
+nav  .hamburger button { 
+    font-size: 20px;
+     color:#73818f;
+     border: none;
+     background: transparent;
+     padding: 0 15px;
+     margin-top:10px;
+   }
+
+nav .nav-list{
+    /* float:right; */
+     list-style: none;
+} 
+
+nav .nav-list li {
+    color:#73818f;
+    font-size: 1em;
+    cursor: pointer;
+    display:inline-block;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+nav .nav-list li:hover,
+nav .nav-list li:active  {
+    color: #20a8d8;
+}
+
+.profile-link >img {
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-right:20px;
+}
+
+ 
+

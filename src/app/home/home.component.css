@@ -1,0 +1,11 @@
+#sidebar {
+    padding-top:55px;
+    width: 200px;
+ }
+
+ /* @media all and (max-width: 500px){
+    #sidebar {
+        transform: translateX(-200px);
+        transition: 0.3s;
+    }
+ } */
